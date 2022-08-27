@@ -12,9 +12,11 @@ changes in table
        -drop
        -add
 #add
->>>alter table tbname add (columnname attributes);
+>>>alter table tbname add (fieldname attributes);
 #modify 
->>>alter table tbname modify (ecode integer PRIMARY KEY);
+>>>alter table tbname modify (fieldname new attributes);
+# change
+alter table tbname change (ecode integer PRIMARY KEY) to ( empcode integer PRIMARY KEY));
 >>>
 >>>
 >>>
