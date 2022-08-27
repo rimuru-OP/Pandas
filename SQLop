@@ -1,0 +1,22 @@
+# Structure of employee table
+>>> desc tablename;
+#list of tables
+>>>show tables;
+#create database
+>>>create database dbname;
+
+###DDL COMMANDS
+changes in table
+##alter -modify
+       -change
+       -drop
+       -add
+#add
+>>>alter table tbname add (columnname attributes);
+
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
