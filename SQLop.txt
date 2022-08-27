@@ -14,6 +14,7 @@ changes in table
 #add
 >>>alter table tbname add (columnname attributes);
 #modify 
+>>>alter table tbname modify (ecode integer PRIMARY KEY);
 >>>
 >>>
 >>>
