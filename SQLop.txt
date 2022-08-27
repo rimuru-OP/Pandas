@@ -16,7 +16,7 @@ changes in table
 #modify 
 >>>alter table tbname modify (fieldname new attributes);
 # change
-alter table tbname change (ecode integer PRIMARY KEY) to ( empcode integer PRIMARY KEY));
+alter table tbname change (ecode integer PRIMARY KEY) to ( empcode integer PRIMARY KEY));  c
 >>>
 >>>
 >>>
