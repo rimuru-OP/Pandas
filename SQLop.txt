@@ -30,6 +30,38 @@ alter table tablbename modify(columnname newattributes );
 alter table tablename change oldname newname ;
 #to see records
 select jitna chiye(sara*) from table name 
+                                        string ke bich me letter
+mysql> select ename from employee where ename LIKE'%y%';
++--------+
+| ename  |
++--------+
+| aryan  |
+| annany |
++--------+
+     string ke end me letter
+select ename from employee where ename LIKE'%y';
++--------+
+| ename  |
++--------+
+| annany |
++--------+
+select ename from employee where ename LIKE'k%';
++---------+
+| ename   |
++---------+
+| kritika |
++---------+
+
+betweenm
+select ename from employee where ecode between 1 and 3;
++---------+
+| ename   |
++---------+
+| aryan   |
+| kritika |
+| ishita  |
++---------+
+
 
 >>>
 >>>
