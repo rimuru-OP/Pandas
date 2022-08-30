@@ -16,7 +16,21 @@ changes in table
 #modify 
 >>>alter table tbname modify (fieldname new attributes);
 # change
-alter table tbname change (ecode integer PRIMARY KEY) to ( empcode integer PRIMARY KEY));  c
+alter table tbname change (ecode integer PRIMARY KEY) to ( empcode integer PRIMARY KEY));  
+
+###DDL COMMANDS
+
+#insert into (insert values into the database)
+ insert into employee values(1,"aryan","M",12,10000,1000,2000000),(1,"kritika","F",12,10060,1900,2110000);
+#update 
+update employee set grade =12 where grade=11 or 10;
+#modify
+alter table tablbename modify(columnname newattributes );
+#change column name as well as 
+alter table tablename change oldname newname ;
+#to see records
+select jitna chiye(sara*) from table name 
+
 >>>
 >>>
 >>>
