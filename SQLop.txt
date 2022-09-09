@@ -62,10 +62,36 @@ select ename from employee where ecode between 1 and 3;
 | ishita  |
 +---------+
 
+mysql> select * from employee where ename LIKE '%a%';
++-------+---------+--------+-------+-------+------+--------------+
+| ecode | ename   | gender | grade | gross | hra  | total_salary |
++-------+---------+--------+-------+-------+------+--------------+
+|     1 | aryan   | M      | 12    | 10000 | 1000 |   2000000.00 |
+|     2 | kritika | F      | 12    | 10060 | 1900 |   2110000.00 |
+|     3 | ishita  | F      | 12    |  1050 | 1900 |   2510000.00 |
+|     4 | bhavesh | M      | 12    | 12000 | 1500 |  12000000.00 |
+|     5 | annany  | M      | 12    | 11000 | 1050 |  20550000.00 |
++-------+---------+--------+-------+-------+------+--------------+
+mysql> select * from employee where ename LIKE '___a%';
++-------+--------+--------+-------+-------+------+--------------+
+| ecode | ename  | gender | grade | gross | hra  | total_salary |
++-------+--------+--------+-------+-------+------+--------------+
+|     1 | aryan  | M      | 12    | 10000 | 1000 |   2000000.00 |
+|     5 | annany | M      | 12    | 11000 | 1050 |  20550000.00 |
++-------+--------+--------+-------+-------+------+--------------+
+>>>
 
->>>
->>>
->>>
+mysql> select * from employee where ename LIKE '__a%';
++-------+---------+--------+-------+-------+------+--------------+
+| ecode | ename   | gender | grade | gross | hra  | total_salary |
++-------+---------+--------+-------+-------+------+--------------+
+|     4 | bhavesh | M      | 12    | 12000 | 1500 |  12000000.00 |
++-------+---------+--------+-------+-------+------+--------------+
+
+
+update table set columnname=value,colmname=-value  where columnanme=value / between/and or; changes values for specified columns 
+
+
 >>>
 >>>
 >>>
