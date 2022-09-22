@@ -1,10 +1,10 @@
 # THIS IS MY IP CLASS 12 PROJECT..
 import fontstyle as fts
 import pandas as pd
-import timer
+#import timer
 import os
 import sys
-os.system("start cmd /k pip install fontstyle")
+#os.system("start cmd /k pip install fontstyle")
 # databases
 f = os.path.dirname(os.path.abspath(__file__))
 f = f.replace('c', 'C',1)
@@ -20,8 +20,10 @@ print(fts.apply('TO GET TO KNOW THE SCHOOLS OF', "bold/italic/CYAN/black_bg"))
 print(fts.apply("INDIA.                       ", 'bold/italic/CYAN/black_bg'))
 print(fts.apply("Please enter your name :     ", 'CYAN/black_bg'))
 c = input()
-print(fts.apply("\nHello "+c +
-      " Please choose the\noption that suits your interest: ", 'CYAN/black_bg'))
+print("\n")
+print(fts.apply("Hello "+c+ ' Please choose the         ', 'CYAN/black_bg'))
+print(fts.apply("option that suits your interest:   ", 'CYAN/black_bg'))
+
 #
 e = fts.apply("|", 'green/black_bg')
 d = fts.apply("-*-*-*-*-*-*-Menu-*-*-*-*-*-*-*", 'italic/green/black_bg')
